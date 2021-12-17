@@ -5,7 +5,7 @@ session_start();
 include_once 'libraries/google-client/Google_Client.php';
 include_once 'libraries/google-client/contrib/Google_Oauth2Service.php';
 
-$client_id = '965938161253-04cg9jkbchgvskbmk8qt1bc445vdu88c.apps.googleusercontent.com'; // Google client ID
+$client_id = '965938161253-04cg9jkbchgvskbmk8qt1bc445vdu88c.apps.googleusercontent.comconfig'; // Google client ID
 $client_secret = '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'; // Google Client Secret
 $redirect_url = 'http://localhost/skill_test/Skill_Test/3.Fullstack_Backend/welcome.php'; // Callback URL
 
